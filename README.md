@@ -25,13 +25,32 @@ make
 sudo make install
 ```
 
-5. Make Vscode Pop!_OS'ed
+5. Pop!_OS Grub Theme
+```sh
+cd grub-theme
+sudo cp /etc/default/grub.d/grub-pop-disable-splash.cfg  /etc/default/grub.d/grub-pop-disable-splash.cfg # You may have to create the /etc/default/grub.d directory
+sudo cp -r /usr/share/grub/themes/pop /usr/share/grub/themes/
+```
+edit `/etc/default/grub`
+find line begging with `GRUB_THEME
+
+change it to 
+```sh
+GRUB_THEME="/usr/share/grub/themes/pop/theme.txt"
+```
+
+Then update grub with..
+```sh
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+6. Make Vscode Pop!_OS'ed
 * Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 ```sh
 ext install ArtisanByteCrafter.poptheme
 ``` 
 
-6. Make Youtube Pop!_OS'ed
+7. Make Youtube Pop!_OS'ed
 * install `enhancer for youtube`  extensions
 * Go to `enhancer for youtube` settings
 * Click on Custom Theme under Theme
