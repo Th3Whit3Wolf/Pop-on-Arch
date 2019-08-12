@@ -1,0 +1,29 @@
+pop-wallpapers (1.0.4) artful; urgency=medium
+
+  * Add more wallpapers by Kate Hazen
+
+ -- Jeremy Soller <jeremy@system76.com>  Mon, 16 Oct 2017 16:18:34 -0600
+
+pop-wallpapers (1.0.3) artful; urgency=medium
+
+  * Add imagemagick to dependencies
+
+ -- Jeremy Soller <jeremy@system76.com>  Fri, 22 Sep 2017 09:18:42 -0600
+
+pop-wallpapers (1.0.2) artful; urgency=medium
+
+  * Update wallpapers
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Sep 2017 15:55:39 -0600
+
+pop-wallpapers (1.0.1) artful; urgency=medium
+
+  * Add background XML file
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Sep 2017 12:43:51 -0600
+
+pop-wallpapers (1.0.0) artful; urgency=medium
+
+  * Initial release.
+
+ -- Jeremy Soller <jeremy@system76.com>  Thu, 21 Sep 2017 11:54:47 -0600

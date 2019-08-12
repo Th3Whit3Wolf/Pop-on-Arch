@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/pop-os/wallpapers.git
+	branch = master
+	commit = 1bd0bf4fd63019b524f2c81148d0abfa40403e3f
+	parent = 278ef344551991714c79fcb9efe7d4bbd4858c24
+	method = merge
+	update = auto
+	cmdver = 0.4.1
