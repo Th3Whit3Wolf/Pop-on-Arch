@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/pop-os/gtk-theme.git
+	branch = master
+	commit = f75e86a1d79458a1bd1b0a6e786c880a28cd4d40
+	parent = 907074f2d196cf5ac3d06752d69eaec932b02876
+	method = merge
+	update = auto
+	cmdver = 0.4.1
