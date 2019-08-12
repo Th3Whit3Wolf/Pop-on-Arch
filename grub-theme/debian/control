@@ -1,0 +1,26 @@
+Source: pop-grub-theme
+Section: admin
+Priority: optional
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Uploaders: Ian Santopietro <ian@system76.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
+Homepage: https://github.com/system76/pop-grub-theme
+
+Package: grub-pop-disable-splash
+Architecture: any-i386 any-amd64 any-powerpc any-ppc64 any-ppc64el any-sparc any-sparc64 any-mipsel any-ia64 any-arm any-arm64
+Depends: ${misc:Depends}, grub-common
+Breaks: pop-default-settings (<< 2)
+Replaces: pop-default-settings (<< 2)
+Multi-Arch: foreign
+Description: GRand Unified Bootloader, version 2 (disable splash configuration)
+ This disables splash in GRUB
+
+Package: grub-theme-pop
+Architecture: any-i386 any-amd64 any-powerpc any-ppc64 any-ppc64el any-sparc any-sparc64 any-mipsel any-ia64 any-arm any-arm64
+Depends: ${misc:Depends}, grub-common
+Breaks: pop-default-settings (<< 2)
+Replaces: pop-default-settings (<< 2)
+Multi-Arch: foreign
+Description: GRand Unified Bootloader, version 2 (pop theme)
+ This is the default pop theme for GRUB's graphical menu.

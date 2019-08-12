@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/pop-os/grub-theme.git
+	branch = master
+	commit = 28eccef1c66915d2651dd8bb1907e2a4ee1e5b76
+	parent = 8e74812fceb883ed5a212aadbbd51b52ee9d42fb
+	method = merge
+	update = auto
+	cmdver = 0.4.1
