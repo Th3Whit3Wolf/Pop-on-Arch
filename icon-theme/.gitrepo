@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/pop-os/icon-theme.git
+	branch = master
+	commit = a9d7ecce6978bad1e589030a2565da488bc56e63
+	parent = 66215ed12d5a7fbd93567236626bbf6029f4ff1f
+	method = merge
+	update = auto
+	cmdver = 0.4.1
