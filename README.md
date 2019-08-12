@@ -1,7 +1,6 @@
 # Pop-on-Arch
 Repository to make a Pop!_OS clone on arch with the KDE desktop environment
 
-
 ## Installation
 
 1. Place ./aurorae/Pop in ~/.local/share/aurorae/themes (create the directory if it doesn't exist)
@@ -46,6 +45,11 @@ ext install ArtisanByteCrafter.poptheme
   * Use the [gruvbox](https://github.com/morhetz/gruvbox-contrib) colorscheme for Konsole and text editors
 
 Feel free to submit bugs if anything looks out of place.
+
+## Screenshots
+![Pop-youtube](assets/vscode-pop.png)
+![Pop-vscode](assets/youtube-pop.png)
+
 
 ## Credits 
 [Nadim Edde Gomez](https://github.com/Nequo/Pop-plasma-theme) for colorscheme and plasma theme
