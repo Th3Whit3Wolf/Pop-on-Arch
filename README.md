@@ -3,6 +3,11 @@ Repository to make a Pop!_OS clone on arch with the KDE desktop environment
 
 ## Installation
 
+### 0. Clone this Repo
+```sh
+https://github.com/Th3Whit3Wolf/Pop-on-Arch.git
+```
+
 ### 1. Pop!_OS Plasma Theme
 ```sh
 cp -r /aurorae/Pop ~/.local/share/aurorae/themes # You may need to create the directory
@@ -103,8 +108,11 @@ splash screen
 [Nadim Edde Gomez](https://github.com/Nequo/Pop-plasma-theme) for colorscheme and plasma theme
 
 [Pop!_OS Wallpapers](https://github.com/pop-os/wallpapers)
+
 [Pop!_OS GTK Theme](https://github.com/pop-os/gtk-theme)
+
 [Pop!_OS Icon Theme](https://github.com/pop-os/icon-theme)
+
 [Pop!_OS Grub Theme](https://github.com/pop-os/grub-theme)
 
 
