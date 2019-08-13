@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/Th3Whit3Wolf/pop-splash.git
+	branch = master
+	commit = 285ef0d205299f841c63647164cf0434c5b8871b
+	parent = 532f069346bff4b3f089797a0897bb822f05801a
+	method = merge
+	update = auto
+	cmdver = 0.4.1

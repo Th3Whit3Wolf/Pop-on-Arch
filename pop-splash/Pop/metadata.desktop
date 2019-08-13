@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=Pop!_OS comes to KDE
+Name=Pop-OS
+X-KDE-PluginInfo-Author=David Karrick
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=the.white.wolf.is.1337@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-Name=Pop
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=git@github.com:Th3Whit3Wolf/pop-splash.git
+X-KDE-ServiceTypes=Plasma/LookAndFeel
