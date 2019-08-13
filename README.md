@@ -57,26 +57,32 @@ cp -r pop-splash/Pop ~/.local/share/plasma/look-and-feel/
 * Select Pop-Os
 
 ### 6. Pop!_OS Wallpapers
-* sudo cp -r wallpapers/ /usr/share/wallpapers/Pop
+```sh
+sudo cp -r wallpapers/ /usr/share/wallpapers/Pop
+```
 
-### 7. Make Vscode Pop!_OS'ed
+### 7. Pop!_OS Konsole Colorscheme
+```sh
+cp Pop.colorscheme ~/.local/share/konsole/
+```
+
+### 8. Make Vscode Pop!_OS'ed
 * Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 ```sh
 ext install ArtisanByteCrafter.poptheme
 ``` 
 
-### 8. Make Youtube Pop!_OS'ed
+### 9. Make Youtube Pop!_OS'ed
 * install `enhancer for youtube`  extensions
 * Go to `enhancer for youtube` settings
 * Click on Custom Theme under Theme
 * Copy youtube.css into the
 
-### 9. Recommendations for a unified look:
+### 10. Recommendations for a unified look:
   * Fira Sans Book size 10 font for General, Small, Toolbar, and Menu
   * Fira Sans SemiBold size 10 for Window Title
   * FiraCode of Fira Mono size 11 for Fixed width
   * If using Latte Dock, remove panel shadow and set panel background to opaque
-  * Use the [gruvbox](https://github.com/morhetz/gruvbox-contrib) colorscheme for Konsole and text editors
 
 Feel free to submit bugs if anything looks out of place.
 
@@ -88,7 +94,7 @@ youtube
 ![Pop-vscode](assets/youtube-pop.png)
 
 desktop
-![Pop-desktop](assets/fullscreenpreview.jpg)
+![Pop-desktop](assets/desktop.png)
 
 splash screen
 ![Pop-splash](assets/splash.png)
